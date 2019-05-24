@@ -86,7 +86,6 @@ module.exports = {
         include: /images/
       }
     },
-    'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
   ],
 }
