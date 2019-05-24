@@ -17,7 +17,7 @@ const Headline = () => (
   <Info className='mw8'>
     <SubTitle>Who we are</SubTitle>
     <Intro>
-      We are a tiny creative <Link data-text="studio" to="/studio/">studio</Link> with offices in Beijing, Shenzhen and Tianjin. We help startups and established companies design <Link data-text="top-notch" to="/works/">top-notch</Link> products and grow their businesses. We specialize in UI/UX, web design, mobile apps, branding, web development and anything digital stuff.
+      We are a tiny creative <Link data-text="studio" to="/studio">studio</Link> with offices in Beijing, Shenzhen and Tianjin. We help startups and established companies design <Link data-text="top-notch" to="/works">top-notch</Link> products and grow their businesses. We specialize in UI/UX, web design, mobile apps, branding, web development and anything digital stuff.
     </Intro>
   </Info>
 )

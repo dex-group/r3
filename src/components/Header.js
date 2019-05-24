@@ -69,7 +69,7 @@ const Menu = () => {
         <Header>
           <Box>
             <Link
-              to="/studio/"
+              to="/studio"
               activeClassName="nav__active"
               data-text="Our Studio"
             >
@@ -84,7 +84,7 @@ const Menu = () => {
               <ul>
                 <li>
                   <Link
-                    to="/works/"
+                    to="/works"
                     activeClassName="nav__active"
                     data-text="Works"
                   >
@@ -93,7 +93,7 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    to="/articles/"
+                    to="/articles"
                     activeClassName="nav__active"
                     data-text="Articles"
                   >
@@ -102,7 +102,7 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    to="/contact/"
+                    to="/contact"
                     activeClassName="nav__active"
                     data-text="Contact"
                   >

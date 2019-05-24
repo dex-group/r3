@@ -263,7 +263,7 @@ class HomeProjects extends React.Component {
               data-scroll
               key={props.name}
               className={`item project-${props.name}`}
-              to={`/${props.name}/`}
+              to={`/${props.name}`}
             >
               <div className="home-projects__inner">
                 <div className="home-projects__inner-background">

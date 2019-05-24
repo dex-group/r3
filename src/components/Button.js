@@ -46,7 +46,7 @@ const ClientButton = styled(Link)`
 
 const Button = () => {
   return (
-    <ClientButton to="/contact/">
+    <ClientButton to="/contact">
       <Gradient />
       IF YOU LIKE IT, PUT A &nbsp;
       <span role="img" aria-label="Engagement Ring">💍</span>
