@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Wrapper from '../components/Wrapper'
-import HeroTitle from '../components/HeroTitle'
-import Headline from '../components/Headline'
-import HomeProjects from '../components/HomeProjects'
-import Clients from '../components/Clients'
-import Services from '../components/Services'
-import ContactBottom from '../components/ContactBottom'
+import HeroTitle from '../sections/Home.HeroTitle'
+import Headline from '../sections/Home.Headline'
+import HomeProjects from '../sections/Home.Projects'
+import Clients from '../sections/Home.Clients'
+import Services from '../sections/Home.Services'
+import ContactBottom from '../sections/Home.ContactBottom'
 
 
 const IndexPage = () => (

@@ -3,9 +3,9 @@ import Helmet from 'react-helmet'
 import { ThemeProvider } from 'styled-components'
 import config from '../utils/siteConfig'
 import { GlobalStyle, theme } from '@styles'
-import Header from './Header'
-import Footer from './Footer'
-import FooterNote from './FooterNote'
+import Header from '../sections/Header'
+import Footer from '../sections/Footer'
+import FooterNote from '../sections/FooterNote'
 import favicon from '../images/favicon.ico'
 
 const Layout = ({ children }) => (

@@ -26,7 +26,7 @@ const ContactWithEmail = () => {
         copyOnClick = "hello@r3.agency"
         iconFill = "rgba(255, 255, 255, 0.6)"
       >
-        Fancy email?{' '}
+        Fancy email?{' '}Say
         <button>hi@r3.agency</button>
       </CopyToClipboard>
     </ContactWithEmailText>

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import SideMeta from './SideMeta'
-import SideNotes from './SideNotes'
+import SideMeta from '../components/SideMeta'
+import SideNotes from '../components/SideNotes'
 import { Client1, Client2, Client3 } from '../data/clients'
 
 const ClientsGrid = styled.section`

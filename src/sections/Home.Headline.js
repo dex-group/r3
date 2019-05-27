@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import SubTitle from './SubTitle'
+import SubTitle from '../components/SubTitle'
 
 const Info = styled.section`
   margin: 16rem auto;

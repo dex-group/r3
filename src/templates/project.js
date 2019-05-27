@@ -49,6 +49,16 @@ const ProjectHeader = styled.div`
   }
 `
 
+const HeaderHero = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+`
+
 const Project = ({ data: { prismicProject } }) => {
   const project = prismicProject
 
@@ -57,19 +67,11 @@ const Project = ({ data: { prismicProject } }) => {
       <Helmet title={`${project.data.title.text}`} postPath={project.data.slug} postNode={project.data} description={project.data.description} />
       <ProjectWrapper>
         <ProjectHeader>
-          <div
-            class="solid-color-bg"
+          <HeaderHero
             css={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              overflow: 'hidden',
-              zIndex: 0,
               background: `${project.data.color}`
             }}
-          ></div>
+          ></HeaderHero>
           <h1>{project.data.title.text}</h1>
           <h2>{project.data.description.text}</h2>
         </ProjectHeader>

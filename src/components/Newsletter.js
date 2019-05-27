@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import Modal from "react-modal"
-import './modal.css'
+// import './modal.css'
 
 Modal.setAppElement(`#___gatsby`)
 

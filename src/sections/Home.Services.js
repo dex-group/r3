@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import SideMeta from './SideMeta'
-import SideNotes from './SideNotes'
+import SideMeta from '../components/SideMeta'
+import SideNotes from '../components/SideNotes'
 import { Service1, Service2, Service3 } from '../data/services'
 
 const ServicesGrid = styled.section`

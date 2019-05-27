@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Button from './Button'
+import Button from '../components/Button'
 
 const ContactBottomWrapper = styled.section`
   display: grid;
@@ -23,7 +23,7 @@ const ContactBottomTitle = styled.h3`
 const ContactBottom = () => (
   <ContactBottomWrapper>
     <ContactUs>
-      <ContactBottomTitle>Wanna build a 🦄 project? <br />Let’s chat.</ContactBottomTitle>
+      <ContactBottomTitle>Got a 🦄 project? Let’s chat.</ContactBottomTitle>
       <Button />
     </ContactUs>
   </ContactBottomWrapper>

@@ -7,6 +7,7 @@ import Container from '../components/Container'
 const Header = styled.header`
   display: flex;
   align-items: center;
+  font-size: 1.25rem;
   a {
     font-weight: 600;
   }
@@ -17,7 +18,7 @@ const Header = styled.header`
       top: 50% !important;
       transform: rotate(-6deg);
       margin-top: -2px;
-      background: rgba(67, 231, 253, 1);
+      background: rgba(67, 231, 253, .8);
       height: 6px;
       width: 100%;
       content: '';
