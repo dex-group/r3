@@ -10,7 +10,7 @@ const ProjectGrid = styled.section`
 
   [data-scroll] {
     will-change: opacity;
-    opacity: 1;
+    opacity: 0.6;
     transform: translateY(6rem) scale(0.8);
     transition: all 1.2s cubic-bezier(0.18, 0.84, 0.44, 1);
   }
@@ -27,6 +27,7 @@ const ProjectGrid = styled.section`
 
   [data-scroll="out"] {
     opacity: 0;
+    transform: scale(0.8);
   }
 
   .grid {
@@ -246,7 +247,7 @@ const Card = styled(Link)`
 class HomeProjects extends React.Component {
   componentDidMount() {
     ScrollOut({
-      threshhold: 0.5,
+      threshhold: 0.2,
       once: true,
       cssProps: {
         visibleY: true

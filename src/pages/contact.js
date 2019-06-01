@@ -7,7 +7,6 @@ import Wrapper from '../components/Wrapper'
 import ContactForm from '../components/ContactForm'
 import ContactWithEmail from '../components/ContactWithEmail'
 import SEO from '../components/SEO'
-import Newsletter from '../components/Newsletter'
 
 const ContactDesc = styled.p`
   max-width: 510px;
@@ -32,7 +31,6 @@ const Contact = () => {
           For any enquiries, or just wanna say hi, get in touch and contact us.
         </ContactDesc>
         <ContactForm />
-        <Newsletter />
         <ContactWithEmail />
       </Wrapper>
     </Layout>

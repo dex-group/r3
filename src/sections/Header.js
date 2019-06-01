@@ -48,6 +48,10 @@ const Box = styled.div`
   &:first-child {
     justify-content: flex-start;
   }
+  &:nth-child(2) a {
+    font-family: 'TiemposHeadline-Bold';
+    font-size: 2rem;
+  }
 `
 
 const Nav = styled.nav`
