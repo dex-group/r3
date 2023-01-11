@@ -41,7 +41,7 @@
     "gatsby-remark-prismjs": "^3.2.9",
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-source-prismic": "^2.2.0",
-    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.1.21",
     "graphql-type-json": "^0.3.0",
     "prismic-reactjs": "^0.3.2",
